@@ -16,6 +16,8 @@ header {
     justify-content: space-between;
     padding: 0 50px;
     background: #5b1d22;
+    position: fixed;
+    width: 100%;
 }
 header .header-left {
     display: flex;
