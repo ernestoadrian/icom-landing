@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Icom Argentina</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <div class="logo">
+                <img src="img/Screenshot_11.png" alt="">
+            </div>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="">About us</a>
+                    </li>
+                    <li>
+                        <a href="">Video</a>
+                    </li>
+                    <li>
+                        <a href="">Photos</a>
+                    </li>
+                    <li>
+                        <a href="100">Get to us</a>
+                    </li>
+                </ul>
+                <div class="login-signup">
+                    <a href="IndexEs.html">Spanish</a> or <a href="indexEn.html">English</a>
+                </div>
+            </nav>
+        </div>
+        <div class="header-right">
+            <div class="login-signup">
+                <a href="IndexEs.html">Spanish</a> o <a href="indexEn.html">English</a>
+            </div>
+            <div class="hamburger">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </header>
+    <div class="Imagen">
+        <div><img src="img/Screenshot_3.png" alt="iamgen" height="300px"></div>
+    </div>
+    <div class="About-us">
+        <div>
+            <h1>About Us</h1>
+        <p>Empresa creada por cacho en el año nosecuanto, nos dedicamos a hacer muebles, que se yo, este parrafo es un texto de muestra</p>
+        </div>
+    </div>
+
+    <div class="siguiente">
+        <img src="img/Screenshot_4.png" alt="">
+    
+    </div>
+    <div id="100" class="get-to-us">
+        <div>
+            <h1>"Get to Us</h1>
+            <p>Imagen y Comunicación S.A.
+                Lisandro de la Torre 3960 C1439GET Buenos Aires Argentina
+                +54 11 4602 0070 | +54 11 4602 8118</p>
+        </div>
+    </div>
+    <script>
+        hamburger = document.querySelector(".hamburger");
+        nav = document.querySelector("nav");
+        hamburger.onclick = function() {
+            nav.classList.toggle("active");
+        }
+    </script>
+
+
+</body>
+</html>
